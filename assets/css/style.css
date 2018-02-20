@@ -1,0 +1,221 @@
+    /*
+			NOTE: Commenting is a bit different in CSS. 
+		  They start with forward-slash + asterisk 
+		  and end with back-slash + asterisk.
+		  */
+
+    a:-webkit-any-link {
+        color: #777777;
+        /* cursor: pointer; */
+        text-decoration: none;
+    }
+
+    h1 {
+      /* Put a 15-pixel margin at the bottom of the heading. */
+      margin-bottom: 15px;
+      /* Change the size of your font to 60 pixels high. */
+      font-size: 40px;
+      /* This will color the heading font white. */
+      color: white;
+      /* Align the text to the center of its enclosing element (e.g. div). */
+      text-align: center;
+      /* Underline the text. */
+      /* text-decoration: underline; */
+      /* The background of the heading element will now be black. */
+      background-color: teal;
+      font: Trebuchet; 
+    }
+    
+    .namebox{
+        position: absolute;
+        height: 10%;
+        width: 20%;
+        left: 5%;
+        top: 4%;
+    }
+/*     
+    .banner{
+        position: absolute;
+        height: 10%;
+        width: 100%;
+        left: 0%;
+        top: 0%;
+        background-color: white;
+    } */
+
+    .navbox{
+        float: left;
+        position: absolute;
+        height: 10%;
+        width: 30%;
+        right: 0%;
+        top: 5%;
+    }
+    
+    .grayhr{
+        position: relative;
+        height: 2px;
+        border: 0;
+        top: -10px;
+        background-color: darkgray;
+    }
+
+
+    /* h2 heading tags */
+    
+    h2 {
+      /* Put a 15-pixel margin at the top of all h2 headings. */
+      /* margin-top: 15px; */
+      /* margin-bottom: 15px; */
+      text-align: center;
+      color: #777777;
+      font-size: 20px;
+    }
+    
+    .graybox{
+        float: left;
+        position: absolute;
+        height: 70%;
+        width: 100%;
+        top: 10%;
+        background-color: whitesmoke;
+    }
+    
+    .footer{
+        float: left;
+        position: sticky;
+        height: 10%;
+        width: 100%;
+        top: 100%;
+        background-color: gray;
+    }
+
+    .footertxt{
+        /* position: relative; */
+        text-align: center;
+        color: white;
+        font-size: 20px;
+    }
+
+    .bluehr{
+        position: relative;
+        height: 10px;
+        border: 0;
+        top: -10px;
+        background-color: teal;
+        /* border-color: teal; */
+        /* border-top: 10px solid teal; */
+        /* margin: 1em 0; */
+        /* padding: 0;  */
+    }
+
+    h3 {      
+        font-size: 30px;
+        font: Trebuchet; 
+        text-align: left;
+        font-weight: bold;
+        color: teal;
+    }
+    
+    .aboutbox{
+        float: left;
+        position: absolute;
+        margin: 0%;
+        padding: 1.5%;
+        height: 50%;
+        width: 60%;
+        left: 5%;
+        top: 15%;
+        background-color: white;
+        color: #777777;
+    }
+    
+    /* All img tags */
+    .profilepic{
+        position: relative;
+        transform: rotate(90deg);
+        margin: 1%;
+        width: 30%;
+        left: -5%;
+        top: 45;
+        border: 1px solid #000000;
+    }
+
+    .thumbnail{
+        position: relative;
+        display: inline;
+        float: left;
+        margin: 1%;
+        width: 25%;
+        /* height: 10%; */
+        margin-left: 5%;
+        top: 20%;
+        border: 1px solid lightgray;
+    }
+    .connectwithme{
+        float: left;
+        position: absolute;
+        background-color: white;
+        /* margin: 1%; */
+        padding: 1%;
+        height: 20%;
+        width: 20%;
+        right: 5%;
+        top: 15%;
+    }
+
+    img {
+      /* 
+				Center a block element in the middle of its enclosing tag.
+				When you use the "auto" rule on both left and right margins, 
+				your browser will do the math necessary to center a block element.
+				*/
+      /* margin-left: auto;
+      margin-right: auto; */
+      float: left;
+      /* Block display (more on this later) */
+      display: block;
+    }
+
+    /* All p tags */
+    p {
+      text-align: left;
+      font-size: 20px;
+      color: #777777;
+      /* Bold the text. */
+      font-weight: bold;
+    }
+
+    .spanwrapper {
+        float: left;
+        position: relative;
+        /* width: 30%; */
+        /* top: 50%; */
+        transform: rotate(90deg);
+    }
+    
+    .infoNumberVertical {
+        background-color: #F5F5F5;
+        border: 1px dotted #DDDDDD;
+        color: #1A3C7B;
+        float: left;
+        font-size: 32px;
+        font-weight: bold;
+        margin-left: -56px;
+        margin-top: 60px;
+        transform: rotate(-90deg);
+        width: 150px;
+    }
+    /* All unordered list tags */
+/*     
+    ul {
+      text-align: center;
+      font-size: 35px;
+      /* Give an element a solid border. */
+      /* border-style: solid; */
+      /* Render the border 5 pixels thick. */
+      /* border-width: 5px; */
+      /* Include bullets in the content flow. */
+      /* More info here: http://www.w3schools.com/cssref/pr_list-style-position.asp */
+      /* list-style-position: inside; */
+    /* } 
