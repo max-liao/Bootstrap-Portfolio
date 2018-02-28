@@ -7,9 +7,13 @@
 
     <!-- Reset css for browser -->
     <link rel="stylesheet" href="assets\css\reset.css">
-    <!-- <link href="assets\css\style.css" rel="stylesheet" type="text/css"> -->
+
     <!-- Bootstrap css -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!-- javascript -->
+    <script type="text/javascript" src = "assets/javascript/profile.js"></script>
+
 
 </head>
 
@@ -37,19 +41,37 @@
             <div class="col-lg-9">
                 <h3 style="font-weight:bold; color:teal">Contact Me</h3>
                 <hr>
-                <div class="form-group" style="padding:1%">
+                <div class="jumbotron jumbotron-fluid" style="height: 12%;padding-top:1%; margin:1%">
+                        <div class="container">
+                            <p>
+                            Email me at <a href ="mailto:max.liao@gmail.com">max.liao@gmail.com </a> or use this form
+                            <br> Phone number: 404-314-7825</p>
+                        </div>
+                </div>
+                <div class="form-group" style="padding:0%;;">
                     <label for="usr">Name:</label>
                     <input type="text" class="form-control" id="usr" placeholder="Bob Builder">
                 </div>
-                <div class="form-group" style="padding:1%">
-                    <label for="email">Email:</label>
-                    <input type="email" class="form-control" id="email" placeholder="name@email.com">
+                <div class="form-group" style="padding:0%">
+                    <label for="email">Cc:</label>
+                    <input type="email" class="form-control" id="ccemail" placeholder="name@email.com">
                 </div>
-                <div class="form-group" style="padding:1%">
+
+                <div class="form-group" style="padding:0%">
+                    <label for="email">Bcc:</label>
+                    <input type="email" class="form-control" id="bccemail" placeholder="name@email.com">
+                </div>
+
+                <div class="form-group" style="padding:0%">
                     <label for="comment">Message:</label>
-                    <textarea class="form-control" rows="8" id="comment" placeholder="Your message here"></textarea>
+                    <textarea class="form-control" rows="4" id="comment" placeholder="Your message here"></textarea>
                 </div>
-                <a href="https://www.google.com" role="button"><button type="button" class="btn btn-primary btn-lg" style="margin-bottom:1%;background-color:teal">Submit</button></a>
+
+                <!-- <a href="https://www.google.com" role="button"> -->
+                    <button type="button" onclick="contactme.sendMail(); return false" class="btn btn-primary btn-lg" style="margin-bottom:1%;background-color:teal">
+                        Submit
+                    </button>
+                <!-- </a> -->
             </div>
             <div class="col-lg-3">
               <div class="panel panel-default">
